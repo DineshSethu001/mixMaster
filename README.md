@@ -1,4 +1,6 @@
+Here’s your text with **corrected formatting only** (no edits to content):
 
+---
 
 ### 🚀 Steps to Run the Project Locally
 
@@ -48,7 +50,6 @@
    ```bash
    npm run build
    ```
-Here’s an enhanced version of your explanation — it sounds cleaner and more professional while staying easy to read 👇
 
 ---
 
@@ -87,29 +88,38 @@ In this project, I’ve combined multiple modern React libraries to handle layou
 4. *(Optional)* If you’re using **Tailwind CSS**, make sure it’s already set up:
 
    ```bash
-   npm install -D tailwindcss postcss autoprefixer
-   npx tailwindcss init -p
+   npm install tailwindcss @tailwindcss/vite
    ```
 
-   Then configure your `tailwind.config.js` and import Tailwind in `index.css`:
+5. **Configure the Vite plugin**
+   Add the `@tailwindcss/vite` plugin to your Vite configuration.
+
+   ```js
+   import { defineConfig } from 'vite'
+   import tailwindcss from '@tailwindcss/vite'
+
+   export default defineConfig({
+     plugins: [
+       tailwindcss(),
+     ],
+   })
+   ```
+
+6. **Import Tailwind CSS**
+   Add an `@import` to your CSS file that imports Tailwind CSS.
 
    ```css
-   @tailwind base;
-   @tailwind components;
-   @tailwind utilities;
+   @import "tailwindcss";
    ```
 
-5. **Run the project**
+7. **Run the project**
 
    ```bash
    npm run dev
    ```
 
-6. Open your browser and visit:
+8. **Open your browser and visit**
 
    ```
    http://localhost:5173
    ```
-
-
-
