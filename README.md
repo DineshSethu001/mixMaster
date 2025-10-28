@@ -1,5 +1,6 @@
-<img width="1366" height="768" alt="mix" src="https://github.com/user-attachments/assets/6ce5a7e5-30a5-4070-adaf-e4ad9959f570" />
 Live_Link =>https://mix-master-six.vercel.app/
+<img width="1366" height="768" alt="mix" src="https://github.com/user-attachments/assets/6ce5a7e5-30a5-4070-adaf-e4ad9959f570" />
+
 
 ### 🚀 Steps to Run the Project Locally
 
